@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Practise]" parallel="tests">
+  <test name="PractiseTestTwo(failed)" parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="testNGPractise.PractiseTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="testRun"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testNGPractise.PractiseTest -->
+    </classes>
+  </test> <!-- PractiseTestTwo(failed) -->
+</suite> <!-- Failed suite [Practise] -->
